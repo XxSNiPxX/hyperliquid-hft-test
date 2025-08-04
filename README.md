@@ -7,7 +7,7 @@ This is a work-in-progress trading signal engine and quote manager using the [`h
 
 ## 🚧 Status
 
-> ⚠️ **This is a prototype. It’s not production-ready.**  
+> ⚠️ **This is a prototype. It’s not production-ready.**
 > Some features may not work as intended, and edge cases or connection issues may cause the engine to break silently. Expect bugs and broken logic until further debugging is done.
 
 ---
@@ -54,8 +54,8 @@ This is a work-in-progress trading signal engine and quote manager using the [`h
 
 1. **Clone the repo**
    ```bash
-   git clone <your-repo-url>
-   cd <repo>
+   git clone https://github.com/XxSNiPxX/hyperliquid-hft-test
+   cd hyperliquid-hft-test
    ```
 
 2. **Add dependencies** in your `Cargo.toml`:
@@ -68,7 +68,7 @@ This is a work-in-progress trading signal engine and quote manager using the [`h
 
 3. **Run the bot**
    ```bash
-   cargo run
+   cargo run bin/trade_new.rs
    ```
 
    You should start seeing logs like:
@@ -113,4 +113,3 @@ This is a work-in-progress trading signal engine and quote manager using the [`h
 
 MIT — open-source and hackable. Use it to build smarter, safer trading bots.
 ```
-
