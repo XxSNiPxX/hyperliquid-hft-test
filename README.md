@@ -1,4 +1,4 @@
-```markdown
+
 # 📈 Hyperliquid Signal Engine (WIP)
 
 This is a work-in-progress trading signal engine and quote manager using the [`hyperliquid_rust_sdk`](https://github.com/hyperliquid-markets/hyperliquid-rust-sdk). It listens to live L2 order book and trade data for a specified coin (e.g. BTC), computes a variety of market signals (momentum, TWAP deviation, decay-weighted order flow), and proposes adaptive bid/ask quotes while respecting simple position risk limits.
